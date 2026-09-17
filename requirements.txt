@@ -1,0 +1,25 @@
+# Multi-Agent Research System
+# Python 3.10+
+# Core LangChain
+langchain==1.4.0
+langchain-core==1.6.2
+langgraph==1.2.11
+# OpenRouter integration for LangChain
+# Use ChatOpenRouter instead of ChatOpenAI.
+langchain-openrouter==0.2.8
+# Tavily Search Tool
+tavily-python>=0.3.0
+# Logging / debugging (optional but recommended)
+rich>=13.7.0
+# Tavily web search
+langchain-tavily==0.2.18
+# Web scraping / HTML parsing
+beautifulsoup4==4.15.0
+requests==2.34.2
+lxml
+# Environment variables
+python-dotenv==1.2.3
+# Data validation
+pydantic
+# UI
+streamlit>=1.40.0
